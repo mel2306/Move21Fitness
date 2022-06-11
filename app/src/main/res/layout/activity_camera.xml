@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout Kamera -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developerrr.fitnesstracker.activities.CameraActivity"
+    >
+
+    <ImageView
+        android:id="@+id/img_cam"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_camera_enhance_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="148dp"
+        android:text="Klicke auf das Symbol um die Kamera zu öffnen"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/green"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@id/img_cam"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

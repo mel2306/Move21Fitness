@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Ladebildschirm Layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gifimage"
+        android:text="Move21"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+
+    <!-- Bibliothek wo gif Bild herkommt-->
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifimage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"></com.felipecsl.gifimageview.library.GifImageView>
+
+</RelativeLayout>

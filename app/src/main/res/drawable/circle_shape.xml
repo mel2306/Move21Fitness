@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Form für Schritte auf Homebildschirm -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Ovale Form erzeugen -->
+        <shape android:shape="oval">
+
+            <!-- Farbe und Breite des Strichs festlegen -->
+            <stroke android:color="@color/circle_shape_border_color" android:width="3dp"/>
+
+            <!-- Angabe der Breite und Höhe der Form -->
+            <size android:width="190dp" android:height="190dp"/>
+
+            <solid
+                android:color="@color/white"/>
+        </shape>
+    </item>
+
+</selector>
